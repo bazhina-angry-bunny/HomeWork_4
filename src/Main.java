@@ -13,18 +13,17 @@ public class Main {
             }
         }
         { System.out.println("Задача №2");
-            int clientOS = 1;
+            int clientOS = 0;
             int clientDeviceYear = 2011;
 
             if (clientOS == 0 && clientDeviceYear < 2015) {
+                System.out.println("Установите облегченную версию приложения для iOS по ссылке ");
             } else if (clientOS == 0 && clientDeviceYear >= 2015) {
-                System.out.println("Установите версию приложения для iOS по ссылке.");
+                System.out.println("Установите версию приложения для iOS по ссылке ");
             } else if (clientOS == 1 && clientDeviceYear >= 2015) {
-                System.out.println("Установите версию приложения для Android по ссылке.");
-            } else if (clientOS == 0 && clientDeviceYear < 2015) {
-                System.out.println("Установите облегченную версию приложения для iOS по ссылке.");
+                System.out.println("Установите версию приложения для Android по ссылке ");
             } else if (clientOS == 1 && clientDeviceYear < 2015) {
-                System.out.println("Установите облегченную версию приложения для Android по ссылке.");
+                System.out.println("Установите облегченную версию приложения для Android по ссылке ");
             } else {
                 System.out.println("Неизвестная операционная система.");
             }
@@ -46,7 +45,7 @@ public class Main {
 
         System.out.println("Задача №4");
 
-            int deliveruDisnance = (int) 100.5612f;
+            int deliveruDisnance = (int) 101f;
             boolean deliveruDisnanceMax = deliveruDisnance <= 100;
 
             if (deliveruDisnanceMax) {
